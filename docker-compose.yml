@@ -1,15 +1,15 @@
 version: '2'
 services:
   nodered:
-      depends_on:
-          - grafana
-      image: nodered/node-red:latest
-      environment:
-          - TZ=America/Bogota
-      ports:
-          - "1880:1880"
-      volumes:
-          - ./nodered-storage:/data
+    depends_on:
+        - grafana
+    image: nodered/node-red:latest
+    environment:
+        - TZ=America/Bogota
+    ports:
+        - "1880:1880"
+    volumes:
+        - ./nodered-storage:/data
   influxdb:
     image: influxdb:latest
     ports:
