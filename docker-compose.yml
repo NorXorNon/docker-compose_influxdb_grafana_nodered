@@ -9,7 +9,7 @@ services:
     ports:
         - "1880:1880"
     volumes:
-        - data-nodered:/data
+        - ./data-nodered:/data
   influxdb:
     image: influxdb:latest
     ports:
@@ -48,4 +48,3 @@ volumes:
     data-nodered:
     data-gf-store:
     data-gf-provision:
-#sudo chown -R 1000:1000 ./data-nodered this command need to run in order to give permission to docker to writhe 1000uid process
