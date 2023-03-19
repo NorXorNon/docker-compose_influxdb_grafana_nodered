@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 ###This repository only edit on docker-compose.yml to make it work on vultr cloud 
 ###Tsudo chown -R 1000:1000 ./data-nodered this command need to run in order to give permission to docker to writhe 1000uid process
+=======
+# This repository only edit on docker-compose.yml to make it work on vultr cloud 
+This command need to run in order to give permission to docker to writhe 1000uid process (make it storing data from nodered)
+```bash
+# sudo chown -R 1000:1000 ./data-nodered 
+```
+>>>>>>> 6e46187f32b2e28eb58327b9cc7c88ded7dc8df8
 # docker-compose-influxdb-grafana-nodered
 Multi-container Docker app built from the following services:
 
