@@ -1,5 +1,5 @@
+**This repository only edit on docker-compose.yml to make it work on vultr cloud 
 # docker-compose-influxdb-grafana-nodered
-
 Multi-container Docker app built from the following services:
 
 * [InfluxDB](https://github.com/influxdata/influxdb) - time series database
@@ -82,3 +82,4 @@ To provision additional dashboards, see the Grafana [documentation](http://docs.
 
 ## Thanks
 To https://github.com/jkehres for original integration project.
+TO https://github.com/schtritoff for adding nodered to project.
