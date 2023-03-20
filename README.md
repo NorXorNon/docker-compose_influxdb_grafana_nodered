@@ -4,7 +4,6 @@ This command need to run in order to give permission to docker to writhe 1000uid
 ```bash
 # sudo chown -R 1000:1000 ./data-nodered 
 ```
->>>>>>> 6e46187f32b2e28eb58327b9cc7c88ded7dc8df8
 # docker-compose-influxdb-grafana-nodered
 Multi-container Docker app built from the following services:
 
