@@ -1,5 +1,5 @@
 
-# This repository only edit on docker-compose.yml to make it work on vultr cloud 
+# Only edit on docker-compose.yml to make it work on vultr cloud 
 This command need to run in order to give permission to docker to writhe 1000uid process (make it storing data from nodered)
 ```bash
 # sudo chown -R 1000:1000 ./data-nodered 
